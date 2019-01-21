@@ -5,7 +5,7 @@ function shout(string){
 }
 
 function whisper(string){
-  if (string === string.toLowerCase()) {
+  if (string === string.toUpperCase()) {
     return string.toLowerCase();
   }
 }
